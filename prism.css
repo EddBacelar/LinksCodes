@@ -132,36 +132,3 @@ pre[class*="language-"] {
 .token.entity {
 	cursor: help;
 }
-
-hr {
-    //border: none;
-    //border-top: 3px double #333;
-    //color: #333;
-    //height: 5px;
-    //text-align: center;
-    
-    overflow: visible;
-	
-    outline: 0;
-    border: 0;
-    color: black;
-    text-align: center;
-    height: 1.5em;
-    opacity: .5;
-}
-
-hr:after {
-    background: #fff;
-    content: attr(data-content);
-    padding: 0 4px;
-    position: relative;
-    top: -13px;
-	
-    //content: attr(data-content);
-    //position: relative;
-    //color: black;
-    //padding: 0 .5em;
-    //line-height: 1.5em;
-    //color: #818078;
-    //background-color: #fcfcfa;
-}
