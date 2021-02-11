@@ -165,12 +165,3 @@ hr:after {
     color: #818078;
     background-color: #fcfcfa;
 }
-
-hr:before {
-    content: '';
-    background: linear-gradient(to right, transparent, #818078, transparent);
-    left: 0;
-    top: 50%;
-    width: 100%;
-    height: 1px;
-}
