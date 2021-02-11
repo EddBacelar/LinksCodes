@@ -159,7 +159,6 @@ hr:after {
 	
     content: attr(data-content);
     position: relative;
-    display: inline-block;
     color: black;
     padding: 0 .5em;
     line-height: 1.5em;
@@ -170,7 +169,6 @@ hr:after {
 hr:before {
     content: '';
     background: linear-gradient(to right, transparent, #818078, transparent);
-    position: absolute;
     left: 0;
     top: 50%;
     width: 100%;
