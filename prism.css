@@ -143,6 +143,7 @@ pre[class*="language-"] {
         height: 1.5em;
         opacity: .8;
 }
+
 hr:before {
           content: '';
           background: linear-gradient(to right, transparent, #818078, transparent);
@@ -151,7 +152,8 @@ hr:before {
           top: 50%;
           width: 100%;
           height: 1px;
-        }
+}
+
 hr:after {
           content: attr(data-content);
           position: relative;
@@ -161,4 +163,27 @@ hr:after {
           line-height: 1.5em;
           color: #818078;
           background-color: #fcfcfa;
+}
+
+h3.dif{
+        text-align: center;
+        font-size: 21px;
+}
+
+.coluna{
+        border: 3px solid black;
+        padding-left: 10px;
+        padding-right: 10px;
+        height: 100%;
+}
+
+#direita {
+        margin-top: -20px;
+        width: 50%;
+        float: left;
+}
+
+#esquerda {
+        margin-left: 51%;
+        width: 49%;
 }
