@@ -151,17 +151,17 @@ hr {
 }
 
 hr:after {
-    //background: #fff;
-    //content: attr(data-content);
-    //padding: 0 4px;
-    //position: relative;
-    //top: -13px;
-	
+    background: #fff;
     content: attr(data-content);
+    padding: 0 4px;
     position: relative;
-    color: black;
-    padding: 0 .5em;
-    line-height: 1.5em;
-    color: #818078;
-    background-color: #fcfcfa;
+    top: -13px;
+	
+    //content: attr(data-content);
+    //position: relative;
+    //color: black;
+    //padding: 0 .5em;
+    //line-height: 1.5em;
+    //color: #818078;
+    //background-color: #fcfcfa;
 }
